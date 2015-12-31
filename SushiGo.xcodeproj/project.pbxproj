@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630209BA1C35BB3C00E9DA5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209B91C35BB3C00E9DA5C /* AppDelegate.swift */; };
+		630209BC1C35BB3C00E9DA5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209BB1C35BB3C00E9DA5C /* ViewController.swift */; };
+		630209BF1C35BB3C00E9DA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630209BD1C35BB3C00E9DA5C /* Main.storyboard */; };
+		630209C11C35BB3D00E9DA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630209C01C35BB3D00E9DA5C /* Assets.xcassets */; };
+		630209C41C35BB3D00E9DA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630209C21C35BB3D00E9DA5C /* LaunchScreen.storyboard */; };
+		630209CF1C35BB3D00E9DA5C /* SushiGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209CE1C35BB3D00E9DA5C /* SushiGoTests.swift */; };
+		630209DA1C35BB3D00E9DA5C /* SushiGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209D91C35BB3D00E9DA5C /* SushiGoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		630209CB1C35BB3D00E9DA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630209AE1C35BB3C00E9DA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630209B51C35BB3C00E9DA5C;
+			remoteInfo = SushiGo;
+		};
+		630209D61C35BB3D00E9DA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 630209AE1C35BB3C00E9DA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630209B51C35BB3C00E9DA5C;
+			remoteInfo = SushiGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		630209B61C35BB3C00E9DA5C /* SushiGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630209B91C35BB3C00E9DA5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		630209BB1C35BB3C00E9DA5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		630209BE1C35BB3C00E9DA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		630209C01C35BB3D00E9DA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		630209C31C35BB3D00E9DA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		630209C51C35BB3D00E9DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630209CA1C35BB3D00E9DA5C /* SushiGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630209CE1C35BB3D00E9DA5C /* SushiGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiGoTests.swift; sourceTree = "<group>"; };
+		630209D01C35BB3D00E9DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630209D51C35BB3D00E9DA5C /* SushiGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		630209D91C35BB3D00E9DA5C /* SushiGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiGoUITests.swift; sourceTree = "<group>"; };
+		630209DB1C35BB3D00E9DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630209B31C35BB3C00E9DA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630209C71C35BB3D00E9DA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630209D21C35BB3D00E9DA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630209AD1C35BB3C00E9DA5C = {
+			isa = PBXGroup;
+			children = (
+				630209B81C35BB3C00E9DA5C /* SushiGo */,
+				630209CD1C35BB3D00E9DA5C /* SushiGoTests */,
+				630209D81C35BB3D00E9DA5C /* SushiGoUITests */,
+				630209B71C35BB3C00E9DA5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630209B71C35BB3C00E9DA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630209B61C35BB3C00E9DA5C /* SushiGo.app */,
+				630209CA1C35BB3D00E9DA5C /* SushiGoTests.xctest */,
+				630209D51C35BB3D00E9DA5C /* SushiGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630209B81C35BB3C00E9DA5C /* SushiGo */ = {
+			isa = PBXGroup;
+			children = (
+				630209B91C35BB3C00E9DA5C /* AppDelegate.swift */,
+				630209BB1C35BB3C00E9DA5C /* ViewController.swift */,
+				630209BD1C35BB3C00E9DA5C /* Main.storyboard */,
+				630209C01C35BB3D00E9DA5C /* Assets.xcassets */,
+				630209C21C35BB3D00E9DA5C /* LaunchScreen.storyboard */,
+				630209C51C35BB3D00E9DA5C /* Info.plist */,
+			);
+			path = SushiGo;
+			sourceTree = "<group>";
+		};
+		630209CD1C35BB3D00E9DA5C /* SushiGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				630209CE1C35BB3D00E9DA5C /* SushiGoTests.swift */,
+				630209D01C35BB3D00E9DA5C /* Info.plist */,
+			);
+			path = SushiGoTests;
+			sourceTree = "<group>";
+		};
+		630209D81C35BB3D00E9DA5C /* SushiGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				630209D91C35BB3D00E9DA5C /* SushiGoUITests.swift */,
+				630209DB1C35BB3D00E9DA5C /* Info.plist */,
+			);
+			path = SushiGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630209B51C35BB3C00E9DA5C /* SushiGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630209DE1C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGo" */;
+			buildPhases = (
+				630209B21C35BB3C00E9DA5C /* Sources */,
+				630209B31C35BB3C00E9DA5C /* Frameworks */,
+				630209B41C35BB3C00E9DA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiGo;
+			productName = SushiGo;
+			productReference = 630209B61C35BB3C00E9DA5C /* SushiGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		630209C91C35BB3D00E9DA5C /* SushiGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630209E11C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGoTests" */;
+			buildPhases = (
+				630209C61C35BB3D00E9DA5C /* Sources */,
+				630209C71C35BB3D00E9DA5C /* Frameworks */,
+				630209C81C35BB3D00E9DA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630209CC1C35BB3D00E9DA5C /* PBXTargetDependency */,
+			);
+			name = SushiGoTests;
+			productName = SushiGoTests;
+			productReference = 630209CA1C35BB3D00E9DA5C /* SushiGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		630209D41C35BB3D00E9DA5C /* SushiGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630209E41C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGoUITests" */;
+			buildPhases = (
+				630209D11C35BB3D00E9DA5C /* Sources */,
+				630209D21C35BB3D00E9DA5C /* Frameworks */,
+				630209D31C35BB3D00E9DA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630209D71C35BB3D00E9DA5C /* PBXTargetDependency */,
+			);
+			name = SushiGoUITests;
+			productName = SushiGoUITests;
+			productReference = 630209D51C35BB3D00E9DA5C /* SushiGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630209AE1C35BB3C00E9DA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Bravebeard;
+				TargetAttributes = {
+					630209B51C35BB3C00E9DA5C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					630209C91C35BB3D00E9DA5C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 630209B51C35BB3C00E9DA5C;
+					};
+					630209D41C35BB3D00E9DA5C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 630209B51C35BB3C00E9DA5C;
+					};
+				};
+			};
+			buildConfigurationList = 630209B11C35BB3C00E9DA5C /* Build configuration list for PBXProject "SushiGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 630209AD1C35BB3C00E9DA5C;
+			productRefGroup = 630209B71C35BB3C00E9DA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630209B51C35BB3C00E9DA5C /* SushiGo */,
+				630209C91C35BB3D00E9DA5C /* SushiGoTests */,
+				630209D41C35BB3D00E9DA5C /* SushiGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630209B41C35BB3C00E9DA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630209C41C35BB3D00E9DA5C /* LaunchScreen.storyboard in Resources */,
+				630209C11C35BB3D00E9DA5C /* Assets.xcassets in Resources */,
+				630209BF1C35BB3C00E9DA5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630209C81C35BB3D00E9DA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630209D31C35BB3D00E9DA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630209B21C35BB3C00E9DA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630209BC1C35BB3C00E9DA5C /* ViewController.swift in Sources */,
+				630209BA1C35BB3C00E9DA5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630209C61C35BB3D00E9DA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630209CF1C35BB3D00E9DA5C /* SushiGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630209D11C35BB3D00E9DA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630209DA1C35BB3D00E9DA5C /* SushiGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630209CC1C35BB3D00E9DA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630209B51C35BB3C00E9DA5C /* SushiGo */;
+			targetProxy = 630209CB1C35BB3D00E9DA5C /* PBXContainerItemProxy */;
+		};
+		630209D71C35BB3D00E9DA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630209B51C35BB3C00E9DA5C /* SushiGo */;
+			targetProxy = 630209D61C35BB3D00E9DA5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		630209BD1C35BB3C00E9DA5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630209BE1C35BB3C00E9DA5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		630209C21C35BB3D00E9DA5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630209C31C35BB3D00E9DA5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630209DC1C35BB3D00E9DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		630209DD1C35BB3D00E9DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630209DF1C35BB3D00E9DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SushiGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		630209E01C35BB3D00E9DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SushiGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		630209E21C35BB3D00E9DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SushiGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiGo.app/SushiGo";
+			};
+			name = Debug;
+		};
+		630209E31C35BB3D00E9DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SushiGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiGo.app/SushiGo";
+			};
+			name = Release;
+		};
+		630209E51C35BB3D00E9DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SushiGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SushiGo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		630209E61C35BB3D00E9DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SushiGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SushiGo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630209B11C35BB3C00E9DA5C /* Build configuration list for PBXProject "SushiGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630209DC1C35BB3D00E9DA5C /* Debug */,
+				630209DD1C35BB3D00E9DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630209DE1C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630209DF1C35BB3D00E9DA5C /* Debug */,
+				630209E01C35BB3D00E9DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		630209E11C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630209E21C35BB3D00E9DA5C /* Debug */,
+				630209E31C35BB3D00E9DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		630209E41C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630209E51C35BB3D00E9DA5C /* Debug */,
+				630209E61C35BB3D00E9DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630209AE1C35BB3C00E9DA5C /* Project object */;
+}
