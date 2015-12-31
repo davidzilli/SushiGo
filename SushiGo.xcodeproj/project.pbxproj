@@ -14,6 +14,7 @@
 		630209C41C35BB3D00E9DA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630209C21C35BB3D00E9DA5C /* LaunchScreen.storyboard */; };
 		630209CF1C35BB3D00E9DA5C /* SushiGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209CE1C35BB3D00E9DA5C /* SushiGoTests.swift */; };
 		630209DA1C35BB3D00E9DA5C /* SushiGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209D91C35BB3D00E9DA5C /* SushiGoUITests.swift */; };
+		630209EA1C35BC7900E9DA5C /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630209E91C35BC7900E9DA5C /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		630209D51C35BB3D00E9DA5C /* SushiGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630209D91C35BB3D00E9DA5C /* SushiGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiGoUITests.swift; sourceTree = "<group>"; };
 		630209DB1C35BB3D00E9DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630209E91C35BC7900E9DA5C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630209EA1C35BC7900E9DA5C /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		630209AD1C35BB3C00E9DA5C = {
 			isa = PBXGroup;
 			children = (
+				630209E91C35BC7900E9DA5C /* MultipeerConnectivity.framework */,
 				630209B81C35BB3C00E9DA5C /* SushiGo */,
 				630209CD1C35BB3D00E9DA5C /* SushiGoTests */,
 				630209D81C35BB3D00E9DA5C /* SushiGoUITests */,
@@ -192,6 +196,7 @@
 				TargetAttributes = {
 					630209B51C35BB3C00E9DA5C = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = P6CX9E4KTX;
 					};
 					630209C91C35BB3D00E9DA5C = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -398,7 +403,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SushiGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SushiGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravebeard.SushiGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
