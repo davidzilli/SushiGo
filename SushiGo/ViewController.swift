@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         self.serviceAdvertiser.startAdvertisingPeer()
         self.serviceBrowser.delegate = self
         self.serviceBrowser.startBrowsingForPeers()
+        
+        let game = Game(numberOfPlayers: 2)
     }
     
     deinit {

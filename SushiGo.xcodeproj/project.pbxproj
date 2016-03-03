@@ -15,6 +15,12 @@
 		630209CF1C35BB3D00E9DA5C /* SushiGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209CE1C35BB3D00E9DA5C /* SushiGoTests.swift */; };
 		630209DA1C35BB3D00E9DA5C /* SushiGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630209D91C35BB3D00E9DA5C /* SushiGoUITests.swift */; };
 		630209EA1C35BC7900E9DA5C /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630209E91C35BC7900E9DA5C /* MultipeerConnectivity.framework */; };
+		63D86DCA1C5EBC4D00FFEFF4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86DC91C5EBC4D00FFEFF4 /* Player.swift */; };
+		63D86DCC1C5EBC5800FFEFF4 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86DCB1C5EBC5800FFEFF4 /* Hand.swift */; };
+		63D86DCE1C5EBC6000FFEFF4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86DCD1C5EBC6000FFEFF4 /* Card.swift */; };
+		63D86DD21C5EBCF200FFEFF4 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86DD11C5EBCF200FFEFF4 /* Deck.swift */; };
+		63D86DD41C5EBD8A00FFEFF4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86DD31C5EBD8A00FFEFF4 /* Game.swift */; };
+		63D86DD61C5EBE0900FFEFF4 /* PlayedHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D86DD51C5EBE0900FFEFF4 /* PlayedHand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		630209D91C35BB3D00E9DA5C /* SushiGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiGoUITests.swift; sourceTree = "<group>"; };
 		630209DB1C35BB3D00E9DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630209E91C35BC7900E9DA5C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		63D86DC91C5EBC4D00FFEFF4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		63D86DCB1C5EBC5800FFEFF4 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		63D86DCD1C5EBC6000FFEFF4 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		63D86DD11C5EBCF200FFEFF4 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		63D86DD31C5EBD8A00FFEFF4 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		63D86DD51C5EBE0900FFEFF4 /* PlayedHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayedHand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		630209B81C35BB3C00E9DA5C /* SushiGo */ = {
 			isa = PBXGroup;
 			children = (
+				63D86DC81C5E5B2700FFEFF4 /* Models */,
 				630209B91C35BB3C00E9DA5C /* AppDelegate.swift */,
 				630209BB1C35BB3C00E9DA5C /* ViewController.swift */,
 				630209BD1C35BB3C00E9DA5C /* Main.storyboard */,
@@ -127,6 +140,19 @@
 				630209DB1C35BB3D00E9DA5C /* Info.plist */,
 			);
 			path = SushiGoUITests;
+			sourceTree = "<group>";
+		};
+		63D86DC81C5E5B2700FFEFF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63D86DC91C5EBC4D00FFEFF4 /* Player.swift */,
+				63D86DCB1C5EBC5800FFEFF4 /* Hand.swift */,
+				63D86DCD1C5EBC6000FFEFF4 /* Card.swift */,
+				63D86DD11C5EBCF200FFEFF4 /* Deck.swift */,
+				63D86DD31C5EBD8A00FFEFF4 /* Game.swift */,
+				63D86DD51C5EBE0900FFEFF4 /* PlayedHand.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D86DD21C5EBCF200FFEFF4 /* Deck.swift in Sources */,
+				63D86DCC1C5EBC5800FFEFF4 /* Hand.swift in Sources */,
 				630209BC1C35BB3C00E9DA5C /* ViewController.swift in Sources */,
+				63D86DCE1C5EBC6000FFEFF4 /* Card.swift in Sources */,
+				63D86DCA1C5EBC4D00FFEFF4 /* Player.swift in Sources */,
 				630209BA1C35BB3C00E9DA5C /* AppDelegate.swift in Sources */,
+				63D86DD61C5EBE0900FFEFF4 /* PlayedHand.swift in Sources */,
+				63D86DD41C5EBD8A00FFEFF4 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +524,7 @@
 				630209E01C35BB3D00E9DA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630209E11C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGoTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +533,7 @@
 				630209E31C35BB3D00E9DA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630209E41C35BB3D00E9DA5C /* Build configuration list for PBXNativeTarget "SushiGoUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +542,7 @@
 				630209E61C35BB3D00E9DA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
